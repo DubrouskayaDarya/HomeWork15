@@ -34,11 +34,11 @@ class ColorViewController: UIViewController {
     @IBAction func textFieldFirstEditingChanged() {
         guard
             let inputText = textFieldFirst.text,
-            let doubleValue = Int(inputText)
+            let doubleValue = Float(inputText)
             else {
             return
         }
-        sliderFirst.value = Float(doubleValue)
+        sliderFirst.value = doubleValue
         changeViewColor()
         changeBackgroundColorInViewController()
     }
