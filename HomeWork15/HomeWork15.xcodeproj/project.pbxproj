@@ -13,6 +13,7 @@
 		9282758527AEEDE600CCD66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9282758327AEEDE600CCD66A /* Main.storyboard */; };
 		9282758727AEEDEE00CCD66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9282758627AEEDEE00CCD66A /* Assets.xcassets */; };
 		9282758A27AEEDEE00CCD66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9282758827AEEDEE00CCD66A /* LaunchScreen.storyboard */; };
+		9282759227AEF38A00CCD66A /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282759127AEF38A00CCD66A /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9282758627AEEDEE00CCD66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9282758927AEEDEE00CCD66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9282758B27AEEDEE00CCD66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9282759127AEF38A00CCD66A /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				9282757D27AEEDE600CCD66A /* AppDelegate.swift */,
 				9282757F27AEEDE600CCD66A /* SceneDelegate.swift */,
-				9282758127AEEDE600CCD66A /* ViewController.swift */,
+				9282759327AEF3A900CCD66A /* Controllers */,
 				9282758327AEEDE600CCD66A /* Main.storyboard */,
 				9282758627AEEDEE00CCD66A /* Assets.xcassets */,
 				9282758827AEEDEE00CCD66A /* LaunchScreen.storyboard */,
 				9282758B27AEEDEE00CCD66A /* Info.plist */,
 			);
 			path = HomeWork15;
+			sourceTree = "<group>";
+		};
+		9282759327AEF3A900CCD66A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9282758127AEEDE600CCD66A /* ViewController.swift */,
+				9282759127AEF38A00CCD66A /* ColorViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				9282758227AEEDE600CCD66A /* ViewController.swift in Sources */,
 				9282757E27AEEDE600CCD66A /* AppDelegate.swift in Sources */,
+				9282759227AEF38A00CCD66A /* ColorViewController.swift in Sources */,
 				9282758027AEEDE600CCD66A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
